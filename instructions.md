@@ -44,7 +44,7 @@ information.
 
 ## Limitations
 
-- **x86_64 only.** Bisq does not ship official ARM builds.
+- **x86_64 only.** This package includes the upstream x86_64 Debian build.
 - **The Bisq network profile is regenerated on every start.** Manual edits to `bisq.properties` inside the container do not persist.
 - **Local-only mode fails closed.** If the local Bitcoin peer cannot be reached, Bisq fails to start instead of silently connecting to remote Bitcoin peers.
 - **Fallback mode is explicit.** It uses remote Bisq Bitcoin peers over Tor and should be selected only when you do not want to require the local Bitcoin service.

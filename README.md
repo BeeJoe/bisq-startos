@@ -199,7 +199,7 @@ A restored instance does not re-raise the password task, since the password came
 
 ## Limitations and Differences
 
-1. **x86_64 only.** Bisq ships no official ARM build.
+1. **x86_64 only.** This package includes the upstream x86_64 Debian build.
 2. **It is a desktop application in a browser, not a web app.** Latency, clipboard behavior, and window management are Selkies' rather than Bisq's, and the experience differs from a native install.
 3. **`bisq.properties` is regenerated on every start.** Hand edits to the Bitcoin connection do not persist; use the action.
 4. **Local-only mode fails closed.** An unreachable local node stops the service instead of silently using remote peers.
